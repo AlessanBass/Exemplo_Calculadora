@@ -22,5 +22,9 @@ class Calculadora{
 
 int main(){
 
+    Pessoa p;
+
+    cout << "Soma: " << p.soma(10,20) << endl;
+
     return 0;
 }
