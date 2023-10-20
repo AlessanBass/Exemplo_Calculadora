@@ -5,7 +5,7 @@ using namespace std;
 
 class Calculadora{
     public:
-    int a, b;
+    /*int a, b;
 
     int soma(int _a, int _b){
         return a + b;
@@ -13,10 +13,14 @@ class Calculadora{
 
     /*
         Multiplicação: Leane
-        Divisão: Ericka
+        Divisão: Erika
         Subtração: Brenndol
     */
+   int a, b;
 
+   int divisão(int _a, int _b){
+        return a / b;
+   }
 };
 
 
